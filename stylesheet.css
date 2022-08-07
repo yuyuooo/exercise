@@ -10,18 +10,20 @@
 
 header {
   background-color: orange;
+  background-image: url("img/logo.png");
+  background-repeat: no-repeat;
   line-height: 80px;
-}
-
-header p {
-  font-size: 35px;
-  font-weight: bold;
 }
 
 .header-container {
   display: flex;
   justify-content: space-between;
   margin: 0 50px;
+}
+
+.logo {
+  background-image: url("img/logo.png");
+  line-height: 80px;
 }
 
 header ul {
