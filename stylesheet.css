@@ -4,14 +4,8 @@
   box-sizing: border-box;
 }
 
-.is-active {
-  color: red
-}
-
 header {
   background-color: orange;
-  background-image: url("img/logo.png");
-  background-repeat: no-repeat;
   line-height: 80px;
 }
 
@@ -23,7 +17,10 @@ header {
 
 .logo {
   background-image: url("img/logo.png");
-  line-height: 80px;
+  height: 80px;
+  width: 100%;
+  background-repeat: no-repeat;
+  padding: 1% 0;
 }
 
 header ul {
