@@ -32,3 +32,10 @@ header ul {
 header li {
   margin-left: 20px;
 }
+
+.main-image {
+  background-image: url("img/main.jpg");
+  height: 900px;
+  width: 100%;
+  background-size: cover;
+}
