@@ -33,9 +33,6 @@ header li {
   margin-left: 20px;
 }
 
-.main-image {
-  background-image: url("img/main.jpg");
+.container {
   height: 900px;
-  width: 100%;
-  background-size: cover;
 }
