@@ -47,23 +47,26 @@ header li {
 
 .main-box {
   width: 50%;
-  height: 500px;
+  height: 700px;
 }
 
 .main-box:nth-child(1){
   display: flex;
   justify-content: center;
-  align-items: center;
+  background-color: #8fbc8f;
+  z-index: 1;
+  position: relative;
 }
 
 .circle {
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
   background-color: orange;
   text-align: center;
   padding-top: 100px;
   animation: 1.0s cubic-bezier(.662,.115,.88,.1) infinite alternate;
+  z-index: 5;
 }
 
 .circle h1 {
@@ -82,6 +85,23 @@ header li {
 	98%  { transform: translateY(29vw) scale(0.9,0.8); }
 	99%  { transform: translateY(29.7vw) scale(1,0.5); }
 	to { transform: translateY(30vw) scale(1,0.5); }
+}
+
+.line1 {
+  background-color: aliceblue;
+  z-index: 3;
+  height: 100%;
+  position: absolute;
+  width: 10px;
+}
+
+.line2 {
+  background-color: #cd853f;
+  z-index: 3;
+  height: 15px;
+  position: absolute;
+  width: 100%;
+  top: 50%;
 }
 
 
