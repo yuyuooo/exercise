@@ -107,8 +107,40 @@ header li {
 
 .main-box:nth-child(2){
   background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-box:nth-child(3){
   background-color: antiquewhite;
+}
+
+th,td {
+  border: solid 1px #777;
+  padding: 1%;
+  width: 100px;
+  height: 80px;
+}
+
+th:nth-child(1){
+  height: 50px;
+}
+
+h3 {
+  margin-bottom: 50px;
+}
+
+.explanation1{
+  margin-bottom: 20px;
+  font-size: small;
+  margin-left: 40%;
+  margin-top: 2px;
+}
+
+.explanation2{
+  font-size: small;
+  margin-left: 40%;
+  margin-top: 2px;
 }
