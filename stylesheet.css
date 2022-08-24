@@ -105,7 +105,7 @@ header li {
 }
 
 
-.main-box:nth-child(2){
+.main-box:nth-child(2),.main-box:nth-child(3){
   background-color: antiquewhite;
   display: flex;
   flex-direction: column;
@@ -113,9 +113,6 @@ header li {
   align-items: center;
 }
 
-.main-box:nth-child(3){
-  background-color: antiquewhite;
-}
 
 th,td {
   border: solid 1px #777;
