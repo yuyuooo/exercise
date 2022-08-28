@@ -29,11 +29,14 @@ header {
 header ul {
   display: flex;
   list-style: none;
+  color: white;
   justify-content: right;
 }
 
-header li {
+header a {
   margin-left: 20px;
+  color: white;
+  text-decoration: none;
 }
 
 .container {
