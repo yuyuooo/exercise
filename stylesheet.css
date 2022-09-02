@@ -195,3 +195,21 @@ h3 {
   margin: auto;
   text-align: center;
 }
+
+.left-access {
+  width: 50%;
+}
+
+.left-access h3{
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+
+.left-access h4 {
+  border-bottom: #777 solid 2px;
+  font-size: 20px;
+}
+
+.left-access p{
+  margin-bottom: 20px;;
+}
